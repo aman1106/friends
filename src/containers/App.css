@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.app-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #282c34;
+  color: white;
+  height: 50px;
+  width: 100%;
+}
+
+.app-form {
+  margin-top: -6px;
+}
+
+.app-input {
+  height: 30px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.invalid {
+  border: 1px solid #cc0000;
+}
+
+.button {
+  border-radius: 0.25rem;
+  border: none;
+  height: 30px;
+  margin: 4px;
+  cursor: pointer;
+}
+
+.danger {
+  background-color: #cc0000;
+  color: white;
+}
+
+.danger-text {
+  color: #cc0000;
+  margin: 0px;
+  font-size: 10px;
+  text-align: left;
+}
+
+.danger:hover {
+  background-color: #ec4f4f;
+}
+
+.app-card {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 100%;
+  min-height: 40px;
+  height: auto;
+  background-color: #f5f5f5;
+  font-size: 18px;
+}
+
+.grid-items {
+  text-align: center;
+}
+
+.left {
+  float: left;
+  margin-left: 5px
+}
+
+.right {
+  float: right;
+  margin-right: 5px
+}
+
+.friend-text {
+  font-size: 12px;
+  color: #a9a9a9;
+}
+
+.icon-container {
+  cursor: pointer;
+  margin: 0 8px;
+  vertical-align: middle;
+}
+
+.icon {
+  vertical-align: middle;
+}
+
+.pages {
+  display: inline;
+  border: 1px black;
+  cursor: pointer;
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid black;
+  margin: 2px;
+}
+
+.pages:hover {
+  background-color: #f5f5f5;
+}
+
+.active-page {
+  color: white;
+  background-color: #4299e1;
+  cursor: auto;
+}
+
+.active-page:hover {
+  color: white;
+  background-color: #add8e6;
+  cursor: auto;
+}
